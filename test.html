@@ -227,28 +227,25 @@ font-family:auPassataRegular;
 }
 
 
-/* Styling for the button with the class "tilmeld-button" */
-.tilmeld-button {
-    padding: 14px 28px; /* Slightly smaller padding */
-    background-color: #002645; /* Button color */
-    color: white;
-    border: none;
-    border-radius: 8px; /* Slightly smaller border-radius */
-    cursor: pointer;
-    font-size: 18px; /* Slightly smaller font size */
-    font-family: AUpassataRegular;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for some depth */
-    transition: background-color 0.3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px; /* Adjust this to control spacing after h1 */
+    /* Button styling */
+button {
+padding: 14px 28px;
+background-color: #002645; 
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-size: 18px;
+font-family: AUpassataRegular;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: background-color 0.3s ease;
 }
 
-/* Hover effect */
-.tilmeld-button:hover {
-    background-color: #003764; /* Change color on hover */
-}
+
+    /* Hover effect for the button */
+    button:hover {
+        background-color: #003b6f; /* Slightly lighter color on hover */
+    }
 
 #navbar {
   overflow: hidden;
@@ -772,7 +769,7 @@ true">
                     
                     <blockquote><p>Vær med til at undersøge, om moderne teknologier er en bedre og mere troværdig måde at indsamle data på.</p>
 <p>Forskningsprojektet er støttet af Aarhus Universitets Forskningsfond.&nbsp;</p></blockquote>
-<button class="tilmeld-button" onclick="scrollToTilmeld()">Tilmeld dig projektet her</button>
+<button onclick="scrollToTilmeld()">Tilmeld dig projektet her</button>
 
                 </div>
             
